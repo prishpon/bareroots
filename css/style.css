@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "Sen-Regular";
+  src: url("../fonts/Sen-Regular.ttf");
+  src: url("../fonts/Sen-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Sen-Bold";
+  src: url("../fonts/Sen-Bold.ttf");
+  src: url("../fonts/Sen-Bold.ttf") format("ttf");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.toggle {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.topheader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0;
+}
+
+ul.menu {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: 'Sen-Regular', Arial, sans-serif;
+  font-weight: 400;
+  font: size 20px;
+  line-height: 26px;
+  color: #4E4A4A;
+  text-transform: uppercase;
+}
+
+ul.menu li {
+  padding: 0 16px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-family: 'Sen-Bold', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+  color: #97CF8B;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Sen-Bold', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 51px;
+  color: #97CF8B;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Sen-Bold', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Sen-Regular', Arial, sans-serif;
+  font-weight: 400;
+  font: size 16px;
+  line-height: 26px;
+  color: #4E4A4A;
+}
+
+button {
+  color: #1F1E1E;
+  background-color: #FFE971;
+  font-family: 'Sen-Bold', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  border: 1px solid #000000;
+  outline: 4px solid #FFE971;
+  padding: 15px 16px;
+  text-transform: uppercase;
+}
+
+.button-wrapper button {
+  margin-right: 30px;
+}
+
+.banner {
+  margin-top: 162px;
+}
+
+.service {
+  margin-top: 100px;
+}
+
+.service h2 {
+  text-align: center;
+  margin-bottom: 58px;
+}
+
+.service .serv-box img {
+  height: 130px;
+  margin-bottom: 38px;
+}
+
+.secondary-header {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.wrap-slider {
+  background-image: url(../img/Rectangl8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 334px;
+}
+/*# sourceMappingURL=style.css.map */
